@@ -8,6 +8,11 @@ variable "region" {
   description = "The gcp region"
 }
 
+variable "zone" {
+  type        = string
+  description = "The gcp zone"
+}
+
 variable "project_id" {
   type        = string
   description = "CGP Project Id"

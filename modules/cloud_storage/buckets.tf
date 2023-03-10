@@ -11,8 +11,10 @@ locals {
 
     "terraform-demo-bucket-2-${var.env_initials}" = {
       labels = {
-        requestor  = "juanito"
+        creator    = "juanito"
         maintainer = "pepito"
+        deployment = "terraform"
+        region     = var.region
       }
     }
   }
