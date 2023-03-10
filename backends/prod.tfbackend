@@ -1,0 +1,2 @@
+bucket = "terraform-demo-states-prod"
+prefix = "terraform-demo/prod.tfstate"

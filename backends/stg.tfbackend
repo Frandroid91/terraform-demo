@@ -1,0 +1,2 @@
+bucket = "terraform-demo-states-stg"
+prefix = "terraform/stg.tfstate"
